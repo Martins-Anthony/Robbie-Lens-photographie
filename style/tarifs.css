@@ -1,0 +1,119 @@
+.main-tarifs {
+    width: 80%;
+    margin: auto;
+}
+
+.titre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    margin-bottom: 80px;
+    /*text-align: center;*/
+    
+  }
+    
+.carre-contenu h2 {
+    margin-bottom: 21px;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+.tarifs {
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    margin-top: 112px;
+}
+
+h1 {
+    display: flex;
+    /*font-size: 55px;*/
+   /* margin-top: 146px;*/
+   /* margin-left: 200px;*/
+   /* margin-bottom: 40px;*/
+   width: 602px;
+   height: 67px;
+   /*left: 200px;*/
+   top: 226px;
+   /*border: 1px solid white;*/
+   /*font-family: 'Montserrat';*/
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 67px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.prix {
+    color: #a5b4fc;
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.asterix {
+    font-size: 10px;
+    margin-top: 17px;
+}
+
+table {
+    border-collapse: collapse;
+    /*margin: auto;*/
+    width: 100%;
+    /*height: 331px;*/
+    /*left: 200px;*/
+    /*top: 849px;*/
+    text-align: center;   
+}
+
+td, 
+thead,
+th {
+    border: 1px solid #8e86b5 ;
+    padding: 15px;
+}
+
+thead {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+td {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F9F8FF;
+
+
+}
+
+caption {   
+    width: 184px;
+    color: #A5B4FC;
+    font-family: 'Montserrat';
+    font-style: normal;   
+    font-size: 35px;   
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 996px) {
+    .section-tarifs {
+      display: none;
+    }
+  }
+
+
